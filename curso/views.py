@@ -175,4 +175,3 @@ def generar(request, slug):
     buffer.seek(0)
     return FileResponse(buffer, as_attachment=True, filename=nombre)
 
-
